@@ -1,0 +1,1 @@
+target_orbit_around_object(weapon, undefined, o_player, -1)

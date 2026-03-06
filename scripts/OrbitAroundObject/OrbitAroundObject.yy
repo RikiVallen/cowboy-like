@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"OrbitAroundObject",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"OrbitAroundObject",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
