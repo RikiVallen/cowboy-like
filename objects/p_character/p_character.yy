@@ -30,7 +30,6 @@
     {"$GMObjectProperty":"v2","%Name":"hp","filters":[],"listItems":[],"multiselect":false,"name":"hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"movementSpeed","filters":[],"listItems":[],"multiselect":false,"name":"movementSpeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"collisionTilemap","filters":[],"listItems":[],"multiselect":false,"name":"collisionTilemap","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"layer_tilemap_get_id(\"Environment_Collide\")","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"weapon","filters":[],"listItems":[],"multiselect":false,"name":"weapon","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"p_weapon","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

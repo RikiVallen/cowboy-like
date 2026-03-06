@@ -10,9 +10,9 @@ if (_movement.isMoving || _isFollowingTarget) {
     _angle += angle_difference(_movement.direction, _angle);
 }
 
-if (_isFollowingTarget) {
-    //_weapon.action()
-}
+//if (_isFollowingTarget) {
+    ////_weapon.action()
+//}
 
 move_and_collide(
     _movement.x * movementSpeed, 

@@ -11,7 +11,6 @@
   "name":"o_enemy",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_character","path":"objects/p_character/p_character.yy",},"propertyId":{"name":"movementSpeed","path":"objects/p_character/p_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.5",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_character","path":"objects/p_character/p_character.yy",},"propertyId":{"name":"weapon","path":"objects/p_character/p_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"o_pistol",},
   ],
   "parent":{
     "name":"Characters",

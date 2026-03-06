@@ -4,12 +4,11 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_player",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_character","path":"objects/p_character/p_character.yy",},"propertyId":{"name":"weapon","path":"objects/p_character/p_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"o_pistol",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Characters",
     "path":"folders/Objects/Characters.yy",
