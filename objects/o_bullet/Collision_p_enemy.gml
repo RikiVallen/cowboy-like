@@ -1,1 +1,0 @@
-other.takeDamage(damage);

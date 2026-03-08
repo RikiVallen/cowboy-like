@@ -1,1 +1,5 @@
-_lastAttacked += delta_time / 1000000;
+// Inherit the parent event
+event_inherited();
+
+_isReloading = alarm[RELOAD] > 0
+_isShooting = alarm[SHOOT] > 0

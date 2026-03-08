@@ -1,1 +1,1 @@
-target_orbit_around_object(self, _weapon, o_player, 2)
+//target_orbit_around_object(self, _weapon, o_player, 2)

@@ -1,23 +1,15 @@
-// Inherit the parent event
-event_inherited();
+target = object_proximity_target(self, o_player, 15, 40);
+_normalisedMovement = object_moveto_normalised(target.x, target.y);
 
-_horizontalMovement = _targetX - x;
-_verticalMovement = _targetY - y;
-
-_movement = object_moveto_normalised(_horizontalMovement, _verticalMovement);
-
-if (_movement.isMoving || _isFollowingTarget) {
-    _angle += angle_difference(_movement.direction, _angle);
+if (_normalisedMovement.isMoving) {
+    _angle += angle_difference(_normalisedMovement.direction, _angle);
 }
 
-//if (_isFollowingTarget) {
-    ////_weapon.action()
-//}
-
 move_and_collide(
-    _movement.x * movementSpeed, 
-    _movement.y * movementSpeed, 
-    [collisionTilemap, p_character], 
+    _normalisedMovement.x * properties.movementSpeed, 
+    _normalisedMovement.y * properties.movementSpeed, 
+    properties.collision,
     undefined, undefined, undefined, 
-    movementSpeed, movementSpeed
+    properties.movementSpeed, 
+    properties.movementSpeed
 );

@@ -7,7 +7,7 @@ function object_moveto_normalised(xMov, yMov) {
     return {
         x: lengthdir_x(_inputLength, _direction),
         y: lengthdir_y(_inputLength, _direction),
+        direction: _direction,
         isMoving: _inputLength,
-        direction: _direction
     }
 }

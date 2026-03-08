@@ -1,3 +1,18 @@
-_attackSpeed = attackSpeed;
+_lastAttack = 0;
+_direction = 0;
 
-_lastAttacked = 0;
+getLastAttack = function() {
+    return _lastAttack;
+}
+
+getDirection = function() {
+    return _direction
+}
+
+resetLastAttack = function() {
+    _lastAttack = 0;
+}
+
+setDirection = function(newDirection) {
+    _direction = newDirection
+}

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Weapon",
+  "%Name":"WeaponMachineGun",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Weapon",
+  "name":"WeaponMachineGun",
   "parent":{
     "name":"Structs",
     "path":"folders/Scripts/Structs.yy",

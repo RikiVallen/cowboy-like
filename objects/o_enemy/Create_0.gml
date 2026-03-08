@@ -1,14 +1,4 @@
 // Inherit the parent event
 event_inherited();
 
-_targetX = x;
-_targetY = y;
-
-_detectionLostRange = detectionRange * 1.5;
-_isFollowingTarget = false;
-
-
-
-_weapon = instance_create_layer(x, y, "Entities", o_pistol);
-
-show_debug_message(_weapon);
+properties = CharacterEnemy();

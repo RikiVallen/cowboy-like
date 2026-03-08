@@ -2,23 +2,20 @@
   "$GMObject":"",
   "%Name":"o_enemy",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_enemy",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_character","path":"objects/p_character/p_character.yy",},"propertyId":{"name":"movementSpeed","path":"objects/p_character/p_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.5",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Characters",
     "path":"folders/Objects/Characters.yy",
   },
   "parentObjectId":{
-    "name":"p_enemy",
-    "path":"objects/p_enemy/p_enemy.yy",
+    "name":"p_character",
+    "path":"objects/p_character/p_character.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
